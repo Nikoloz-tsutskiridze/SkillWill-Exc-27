@@ -1,0 +1,25 @@
+// Global styles
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+// Example variables
+$primary-color: #3498db;
+$text-color: #333;
+
+// Global classes
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+p {
+  color: $text-color;
+}
