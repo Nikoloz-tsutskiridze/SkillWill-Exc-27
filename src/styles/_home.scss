@@ -1,0 +1,16 @@
+.home-page {
+  @include center-content;
+  height: 100vh;
+  background-color: $background-color;
+  flex-direction: column;
+
+  .welcome {
+    color: $text-color;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .login-link {
+    @include button-style($primary-color);
+  }
+}

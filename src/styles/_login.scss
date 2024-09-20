@@ -1,0 +1,23 @@
+.login-page {
+  @include center-content;
+  flex-direction: column;
+  height: 100vh;
+  background-color: $background-color;
+
+  .login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h1 {
+      margin-bottom: 20px;
+      color: $primary-color;
+    }
+
+    button {
+      width: 100%;
+      @include button-style($primary-color);
+    }
+  }
+}
